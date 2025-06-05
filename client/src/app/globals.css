@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.font-handwritten {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* globals.css */
+body {
+  background-color: #fdf2f8; /* Light Pink (Tailwind pink-50 background) */
+  color: #111827; /* Dark gray text for better readability */
+}
+
+/* Optional: Add smooth font rendering */
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #ec4899; /* Pink links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button global style (optional if you want matching theme) */
+button {
+  transition: background-color 0.3s, color 0.3s;
+}
